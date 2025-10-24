@@ -1,0 +1,48 @@
+<suite name = "orangehrm TestCases">
+
+<test name = "Admin login With Valid Credentials">
+<parameter name = "uid" value = "Admin"></parameter>
+<parameter name = "pwd" value = "Qedge123!@#"></parameter>
+<classes>
+<class name ="orangehrm.testcases.AdminLoginWithValidCredentials">
+</class>
+</classes>
+</test>
+
+<test name = "Admin login With Invalid Credentials">
+<parameter name = "uid" value = "Admins"></parameter>
+<parameter name = "pwd" value = "edge123!@#"></parameter>
+
+<classes>
+<class name ="orangehrm.testcases.AdminLoginWithInvalidCredentails">
+</class>
+</classes>
+</test>
+
+<test  name = "employee registartion test">
+<parameter name = "uid" value = "Admin"></parameter>
+<parameter name = "pwd" value = "Qedge123!@#"></parameter>
+<parameter name = "fname" value = "vaibhava"></parameter>
+<parameter name = "lname" value = "krishna"></parameter>
+
+<classes>
+<class name ="orangehrm.testcases.EmployeeRegTest">
+</class>
+</classes>
+</test>
+
+
+<test name = "user registration test">
+<parameter name = "uid" value = "Admin"></parameter>
+<parameter name = "pwd" value = "Qedge123!@#"></parameter>
+<parameter name = "role" value = "ESS"></parameter>
+<parameter name = "employeename" value = "vaibhava krishna"></parameter>
+<parameter name = "username" value = "VaibhavKrishnaa"></parameter>
+<parameter name = "password" value = "VaibhavKrishna123!@#"></parameter>
+
+<classes>
+<class name = "orangehrm.testcases.UserRegTest"></class>
+</classes>
+</test>
+
+</suite>
